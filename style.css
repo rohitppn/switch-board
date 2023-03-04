@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+body{
+    background-color: lightgreen;
+}
+
+
+.board{
+    height: 12rem;
+    width: 28rem;
+   background-color:white ;
+   align-items: center;
+   display: flex;
+   margin: 20% auto; 
+   border-radius: 1rem;
+   background-color:whitesmoke;
+}
+.plug{
+    height: 8rem ;
+    width:  8rem;
+    /* background-color: lightgreen; */
+    margin-left: 1.5rem;
+    border: 1px solid grey;
+    background-color: white;
+    margin-right: 0%;
+    box-shadow:  1px 1px 4px 1px grey;
+}
+.dot{
+    height: 1.25rem;
+    width: 1.25rem;
+    background-color: black;
+    border-radius: 100%;
+    display: flex;
+    /* margin-top: 1rem; */
+    position: relative;
+    top: 2rem;
+    margin: 0% auto;
+    align-items: center;
+}
+.dot1{
+    height: 1rem;
+    width: 1rem;
+    background-color: black;
+    border-radius: 100%;
+    display: inline-block;
+    /* position: absolute; */
+    margin-top: 4.4rem;
+    margin-left: 2rem;
+
+}
+.switch{
+    /* height: 10rem ;
+    width:  6.5rem; */
+    /* background-color: lightgreen; */
+    margin-left: 1rem;
+    margin-right: 0%;  
+    background-color: white;
+    /* box-shadow:  1px 1px 4px 1px grey ; */
+}
+ button{
+    height: 8rem;
+    width:  3.25rem;
+    border-radius:0.5rem ;
+    display: inline-block;
+    border: 1px solid grey;
+    box-shadow:  1px 1px 4px 1px grey ;
+
+}
+.plug2{
+    height: 8rem ;
+    width:  8rem;
+    /* background-color: lightgreen;    */
+    margin-left: 1rem;
+    border: 1px solid grey;
+    background-color: white;
+    box-shadow:  1px 1px 4px 1px grey;
+}
+
